@@ -31,8 +31,36 @@
     animation: jump 500ms ease-out;
 }
 
+.gameover{
+    text-align: center;
+    opacity: 0;
+}
+
+.title {
+    font-size: 100px;
+    color: red;
+    margin-top: 30px;
+}
+
+.btn{
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 100px;
+    width: 200px;
+    font: bold 25px arial, sans-serif;
+    text-shadow:none;
+    margin: 30px;
+}
+
+.no-hiden{
+    opacity: 1;
+}
+
 .clouds {
     position: absolute;
+    top: 50px;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
 }
